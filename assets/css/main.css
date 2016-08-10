@@ -59,3 +59,7 @@ ul.header-blog-navigation li a {
 ul.header-blog-navigation li a:hover {
   text-decoration: underline;
 }
+
+.read-next-story.prev .post:before {
+  content: "read this next";
+}
