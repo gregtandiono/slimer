@@ -1,0 +1,10 @@
+/* Overrides */
+
+.main-header {
+  text-align: left;
+}
+
+.page-title {
+  font-family: "Merriweather";
+  font-size: 4rem;
+}
