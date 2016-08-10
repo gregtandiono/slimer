@@ -1,5 +1,9 @@
 /* Overrides */
 
+:root {
+  --baseFont: "Merriweather";
+}
+
 .main-header {
   text-align: left;
   max-width: 25%;
@@ -14,7 +18,7 @@
 }
 
 .page-title {
-  font-family: "Merriweather";
+  font-family: var(--baseFont);
   font-size: 3.25rem;
 }
 

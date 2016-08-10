@@ -17,5 +17,6 @@ node_modules
 .idea/*
 *.iml
 projectFilesBackup
+assets/cssmaps
 
 .DS_Store
