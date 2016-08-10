@@ -2,9 +2,52 @@
 
 .main-header {
   text-align: left;
+  max-width: 25%;
+  position: fixed;
+  display: block;
+  min-height: 100%;
+}
+
+.no-cover.main-header {
+  background-color: transparent;
+  min-height: 100%;
 }
 
 .page-title {
   font-family: "Merriweather";
-  font-size: 4rem;
+  font-size: 3.25rem;
+}
+
+.page-description {
+  font-size: 1.5rem;
+}
+
+main.content {
+  margin-left: 25%;
+}
+
+main.content article.post {
+  margin-top: 0;
+}
+
+.site-wrapper {
+  padding-top: 6%;
+}
+
+ul.header-blog-navigation {
+  margin-top: 40px;
+  padding-left: 0;
+}
+
+ul.header-blog-navigation li {
+  display: block;
+}
+
+ul.header-blog-navigation li a {
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+
+ul.header-blog-navigation li a:hover {
+  text-decoration: underline;
 }
